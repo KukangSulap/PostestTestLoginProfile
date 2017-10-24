@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86994EB61F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 86994EB51F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		86994EBA1F9EE1A0009F4832 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 86994EB91F9EE1A0009F4832 /* Stickers.xcstickers */; };
+		86994EBB1F9EE1A0009F4832 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 86994EB91F9EE1A0009F4832 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86994EB71F9EE1A0009F4832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86994EAB1F9EE1A0009F4832 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86994EB41F9EE1A0009F4832;
+			remoteInfo = "PostestTestLoginProfile StickerPackExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		86994EC11F9EE1A0009F4832 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				86994EB61F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		86994EB11F9EE1A0009F4832 /* PostestTestLoginProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostestTestLoginProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86994EB51F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PostestTestLoginProfile StickerPackExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86994EB91F9EE1A0009F4832 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = "PostestTestLoginProfile StickerPackExtension/Stickers.xcstickers"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		86994EAA1F9EE1A0009F4832 = {
+			isa = PBXGroup;
+			children = (
+				86994EB91F9EE1A0009F4832 /* Stickers.xcstickers */,
+				86994EB21F9EE1A0009F4832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86994EB21F9EE1A0009F4832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86994EB11F9EE1A0009F4832 /* PostestTestLoginProfile.app */,
+				86994EB51F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86994EB01F9EE1A0009F4832 /* PostestTestLoginProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86994EC21F9EE1A0009F4832 /* Build configuration list for PBXNativeTarget "PostestTestLoginProfile" */;
+			buildPhases = (
+				86994EAF1F9EE1A0009F4832 /* Resources */,
+				86994EC11F9EE1A0009F4832 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86994EB81F9EE1A0009F4832 /* PBXTargetDependency */,
+			);
+			name = PostestTestLoginProfile;
+			productName = PostestTestLoginProfile;
+			productReference = 86994EB11F9EE1A0009F4832 /* PostestTestLoginProfile.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		86994EB41F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86994EBE1F9EE1A0009F4832 /* Build configuration list for PBXNativeTarget "PostestTestLoginProfile StickerPackExtension" */;
+			buildPhases = (
+				86994EB31F9EE1A0009F4832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PostestTestLoginProfile StickerPackExtension";
+			productName = "PostestTestLoginProfile StickerPackExtension";
+			productReference = 86994EB51F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86994EAB1F9EE1A0009F4832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Naufel;
+				TargetAttributes = {
+					86994EB01F9EE1A0009F4832 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					86994EB41F9EE1A0009F4832 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 86994EAE1F9EE1A0009F4832 /* Build configuration list for PBXProject "PostestTestLoginProfile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86994EAA1F9EE1A0009F4832;
+			productRefGroup = 86994EB21F9EE1A0009F4832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86994EB01F9EE1A0009F4832 /* PostestTestLoginProfile */,
+				86994EB41F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86994EAF1F9EE1A0009F4832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86994EBB1F9EE1A0009F4832 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86994EB31F9EE1A0009F4832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86994EBA1F9EE1A0009F4832 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86994EB81F9EE1A0009F4832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86994EB41F9EE1A0009F4832 /* PostestTestLoginProfile StickerPackExtension */;
+			targetProxy = 86994EB71F9EE1A0009F4832 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86994EBC1F9EE1A0009F4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86994EBD1F9EE1A0009F4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86994EBF1F9EE1A0009F4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PostestTestLoginProfile StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = pok.PostestTestLoginProfile.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86994EC01F9EE1A0009F4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PostestTestLoginProfile StickerPackExtension/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = pok.PostestTestLoginProfile.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86994EC31F9EE1A0009F4832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PostestTestLoginProfile/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = pok.PostestTestLoginProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86994EC41F9EE1A0009F4832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PostestTestLoginProfile/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = pok.PostestTestLoginProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86994EAE1F9EE1A0009F4832 /* Build configuration list for PBXProject "PostestTestLoginProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86994EBC1F9EE1A0009F4832 /* Debug */,
+				86994EBD1F9EE1A0009F4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86994EBE1F9EE1A0009F4832 /* Build configuration list for PBXNativeTarget "PostestTestLoginProfile StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86994EBF1F9EE1A0009F4832 /* Debug */,
+				86994EC01F9EE1A0009F4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86994EC21F9EE1A0009F4832 /* Build configuration list for PBXNativeTarget "PostestTestLoginProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86994EC31F9EE1A0009F4832 /* Debug */,
+				86994EC41F9EE1A0009F4832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86994EAB1F9EE1A0009F4832 /* Project object */;
+}
